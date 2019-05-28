@@ -17,7 +17,8 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh './jenkins/scripts/deploy.sh'
+               /* sh './jenkins/scripts/deploy.sh' */
+                  sh 'ssh -tt ec2-user@ec2-18-220-71-177.us-east-2.compute.amazonaws.com' 
               
                
             }
