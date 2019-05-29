@@ -6,31 +6,15 @@ git clone -b Test https://github.com/sharvii/simple-node-js-react-npm-app-master
 cd simple-node-js-react-npm-app-master
 npm install
 
-
-
-
-
 set -x
 npm run build
 set +x
-
-
-
-
-
-
-
-
 
 set -x
 nohup npm start &
 sleep 1
 #echo $! > .pidfile
 set +x
-
-
-
-
-echo 'created your initial Pipeline as a Jenkinsfile.)'
+echo 'created initial Pipeline as a Jenkinsfile.'
 exit
 EOF
