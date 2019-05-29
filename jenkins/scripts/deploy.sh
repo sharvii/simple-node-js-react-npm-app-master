@@ -23,7 +23,7 @@ set +x
 
 
 set -x
-npm start &
+nohup npm start &
 sleep 1
 echo $! > .pidfile
 set +x
