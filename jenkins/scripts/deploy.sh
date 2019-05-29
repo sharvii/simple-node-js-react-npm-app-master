@@ -25,10 +25,12 @@ set +x
 set -x
 nohup npm start &
 sleep 1
-echo $! > .pidfile
+#echo $! > .pidfile
 set +x
 
 
 
 
 echo 'created your initial Pipeline as a Jenkinsfile.)'
+exit
+EOF
